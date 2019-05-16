@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+//    cout << "Hello world!" << endl;
+//    cout << "/*";
+//    cout << "*/";
+//    cout << /*"*/"*/;
+//    cout << /*"*/" /* "/*" */;
+
+//    unsigned u=10, u2=42;
+//    cout << u2-u << endl;
+//    cout << u-u2 << endl;
+//
+//    int i=10, i2=42;
+//    cout << i2-i << endl;
+//    cout << i-i2 << endl;
+//    cout << i-u << endl; //结果为0 正整数转化为无符号数仍为其本身
+//    cout << u-i << endl; //结果为0
+
+//    int local_int; //函数体内初始化，不会赋初值，只是定义
+//    string local_str; //函数体内初始化，不会赋初值，只是定义
+
+//   double Double = 3.14;
+//   int 1_or_2 = 2; //变量命名有误，不能以数字开头
+
+    return 0;
+}
