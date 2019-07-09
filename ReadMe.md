@@ -21,3 +21,7 @@
   [搜狗输入法](https://www.cnblogs.com/darklights/p/7722861.html)
   
   [谷歌浏览器](https://baijiahao.baidu.com/s?id=1622595992346821550&wfr=spider&for=pc&isFailFlag=1&tdsource)
+  
+## 设置配置
+
+ **下载源**:设置 software 中 downloa from改成 中国的阿里云或者清华大学镜像，优先选**阿里云**的软件源，目前为Ubuntu中文社区官方推荐。
