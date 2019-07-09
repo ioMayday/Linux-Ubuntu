@@ -18,4 +18,5 @@
   
 ## 软件安装
 
+  [搜狗输入法](https://www.cnblogs.com/darklights/p/7722861.html)
   [谷歌浏览器](https://baijiahao.baidu.com/s?id=1622595992346821550&wfr=spider&for=pc&isFailFlag=1&tdsource)
