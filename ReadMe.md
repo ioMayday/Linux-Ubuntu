@@ -15,3 +15,7 @@
 ## 使用技巧
 
   [有线网络连接（校园网）](https://blog.csdn.net/Caoyang_He/article/details/82262199)
+  
+## 软件安装
+
+  [谷歌浏览器](https://baijiahao.baidu.com/s?id=1622595992346821550&wfr=spider&for=pc&isFailFlag=1&tdsource)
