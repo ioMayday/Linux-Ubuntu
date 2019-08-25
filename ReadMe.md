@@ -15,6 +15,9 @@
 ## 使用技巧
 
   [有线网络连接（校园网）](https://blog.csdn.net/Caoyang_He/article/details/82262199)
+  **Gcc编译搭建C++开发环境（命令窗口内运行）**
+  http://c.biancheng.net/cpp/html/3418.html
+  
   
 ## 软件安装
 
@@ -25,3 +28,6 @@
 ## 设置配置
 
  **下载源**:设置 software 中 downloa from改成 中国的阿里云或者清华大学镜像，优先选**阿里云**的软件源，目前为Ubuntu中文社区官方推荐。
+
+**Ros安装Kinetic-desktop-full**
+[Ubuntu16.04下安装ROS Kinetic并启动小乌龟示例](https://blog.csdn.net/qq_17232031/article/details/79519308)
