@@ -16,11 +16,59 @@
 
   [有线网络连接（校园网）](https://blog.csdn.net/Caoyang_He/article/details/82262199)
   
-  **Gcc编译搭建C/C++开发环境（命令窗口内运行）**
-  
-  http://c.biancheng.net/cpp/html/3418.html
-  
-  
+## 常用命令
+
+**快捷命令**
+```
+Terminal
+打开命令窗      Ctrl + Alt + T
+中断命令行运行 Ctrl + C
+命令补全 Tab
+复制粘贴 Ctrl + Shift + C/V
+
+CD命令
+切换当前目录至指定的目录： cd [目录名]
+  cd /   返回根目录
+  cd ..  返回上一级目录
+  cd ~   从当前目录进入当前用户主目录
+  cd -   从当前目录进入上次所在目录
+  cd ../.. 返回上两级目录
+
+切换回图形界面  [Ctrl]+[Alt]+[F7] 
+进入字符界面    Ctrl + Alt + F1 #不建议使用
+添加注释       在命令行后加 #blablabla
+锁屏/显示登录对话框  ctrl+alt+L	
+关闭应用程序窗口  Ctrl+Q
+
+```
+
+**文件操作**
+```
+查看文件内容 cat name.c
+创建文件.c  touch name.c
+显示当前文件 ls
+显示当前路径 pwd
+创建一个目录 mkdir 目录名
+删除一个文件 rm 文件名
+删除一个目录 rm -r命令 待删除目录
+复制目录或文件 cp test.txt /home/ubuntu/downloads/newdir    cp -r 复制目录 指定目录
+移动目录或文件 mv test newdir 将文件 test 移动到 newdir目录
+重命名        mv test test1 将文件 test 重命名为 test1
+```
+**软件安装**
+```
+更新源   sudo apt-get upgrade/update #注意两者区别，前者更新软件，后者更新软件源列表
+安装软件 sudo apt-get install 软件名
+```
+
+**文件存储**
+```
+查看磁盘剩余空间: df -hl
+```  
+
+
+
+
 ## 软件安装
 
   [搜狗输入法](https://www.cnblogs.com/darklights/p/7722861.html)
@@ -36,6 +84,8 @@
 [Ubuntu16.04下安装ROS Kinetic并启动小乌龟示例](https://blog.csdn.net/qq_17232031/article/details/79519308)
 
 **Ubuntu 16.04下的gcc/g++编译环境搭建及第一个C和C++示例程序运行**
+
+命令窗口内直接运行C/C++程序。
 
 [参考教程1](https://www.linuxidc.com/Linux/2019-04/158258.htm)
 
