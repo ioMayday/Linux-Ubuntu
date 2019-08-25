@@ -32,10 +32,14 @@
  **下载源**:设置 software 中 downloa from改成 中国的阿里云或者清华大学镜像，优先选**阿里云**的软件源，目前为Ubuntu中文社区官方推荐。
 
 **Ros安装Kinetic-desktop-full**
+
 [Ubuntu16.04下安装ROS Kinetic并启动小乌龟示例](https://blog.csdn.net/qq_17232031/article/details/79519308)
 
 **Ubuntu 16.04下的gcc/g++编译环境搭建及第一个C和C++示例程序运行**
-[参考教程](https://www.linuxidc.com/Linux/2019-04/158258.htm)
+
+[参考教程1](https://www.linuxidc.com/Linux/2019-04/158258.htm)
+
+[参考教程2](http://c.biancheng.net/cpp/html/3418.html)
 
 功能：已安装Gcc后，再安装不同的gcc和g++版本，并设置根据不同的需要在不同版本之间切换。
 
