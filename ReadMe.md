@@ -34,7 +34,7 @@
 **Ros安装Kinetic-desktop-full**
 [Ubuntu16.04下安装ROS Kinetic并启动小乌龟示例](https://blog.csdn.net/qq_17232031/article/details/79519308)
 
-**gcc/g++编译环境搭建**
+**Ubuntu 16.04下的gcc/g++编译环境搭建及第一个C和C++示例程序运行**
 [参考教程](https://www.linuxidc.com/Linux/2019-04/158258.htm)
 
 功能：已安装Gcc后，再安装不同的gcc和g++版本，并设置根据不同的需要在不同版本之间切换。
@@ -91,5 +91,53 @@ $ sudo update-alternatives --config g++
 
 gcc --version
 g++ --version
+
+````
+
+**第一个C和C++示例程序运行**
+
+````
+// C程序
+/*  *****
+#include <stdio.h>
+int main()
+{
+  puts("Hello World of C!");
+  return 0;
+}
+
+******* */
+
+// C++程序
+/*  *****
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   cout << "Hello World of C++!" << endl;
+   return 0;
+}
+
+******* */
+
+1. 创建.c文件
+随便找一个目录建立文件。
+2. 编译文件
+  c文件尽量用gcc编译
+  cpp（C++）用g++编译
+3. 运行
+  方法1：直接把这个文件拖到Terminal上，通过按回车键运行
+  方法2：./test_main.out 直接按路径下的文件打开运行
+
+命令如下：
+touch main.c #创建
+gedit main.c #复制上段代码,编辑保存
+gcc main.c -o test_main #编译mian.c，以test_main为名，输出的文件格式后缀为.out
+
+touch main.cpp #创建
+gedit main.cpp #复制上段代码,编辑保存
+gcc main.cpp -o test_main #编译mian.pp，以test_main为名，输出的文件格式后缀为.out
 
 ````
