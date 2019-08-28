@@ -20,31 +20,41 @@ Git 仓库的三大区域：工作区+暂存区+版本区
 
 `````
 git clone ~~  #仓库网址
+
 cd shiyanlou #打开本地仓库
+
 git status  #查看本地仓库状态
+
 echo 'hello world' > one.txt #在仓库内新建文件 放在工作区
+
 git add one.txt #把工作区的文件放到暂存区
+
 git add .  #把工作区的所有文件放到暂存区
+
 echo 'Change the README.md' > README.md  #修改本地仓库已有文件，末尾添加文字
+
 git config --global user.email "you@example.com" #配置GitHub邮箱
 git config --global user.name "Your Name" #配置云端GitHub用户名
 git config -l  # 显示本地仓库在云端仓库的配置信息
 cat -n ~/.gitconfig #查看配置后的邮箱和用户名
+
 git commit -m 'commit one.txt, shiyanlou.txt, README.txt and README.md changed' #暂存区提交到版本区，一个必须的选项 -m 用来提供该提交的备注,后面为注释内容，依然只是操作的本地仓库
 git log #查看版本区的提交历史记录,紫色框中的十六进制序列号就是提交版本号，每个提交都有自己单独的版本号
 git branch -avv #查看云端与本地的版本差异
 git push #将版本区推送到云端同步 或者push -f 提交修改的版本
 git reset --soft HEAD^ #退回到之前的一个版本，HEAD^^表示之前两个版本,撤销 n 次可以简写为 HEAD~n
 git reset one.txt #撤回修改的版本
+
 git diff (git diff --cached) #查看工作区被跟踪的文件的修改详情,cached查看暂存区的全部修改
 # 此时会跳到新的页面，即工作区修改详情页，按 Q 退出此页面。
 
 `````
 
 Git分支操作
-======
+===========
 
 # 章节目录
+``````
 添加 SSH 关联授权
 为 Git 命令设置别名
 git fetch 刷新本地分支信息
@@ -53,7 +63,7 @@ git fetch 刷新本地分支信息
 本地分支跟踪远程分支
 删除远程分支
 本地分支的更名与删除
-
+``````````
 
 # 获取SSH永久授权
 
