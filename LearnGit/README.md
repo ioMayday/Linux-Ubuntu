@@ -46,6 +46,7 @@ git reset --soft HEAD^ #退回到之前的一个版本，HEAD^^表示之前两�
 git reset one.txt #撤回修改的版本
 
 git diff (git diff --cached) #查看工作区被跟踪的文件的修改详情,cached查看暂存区的全部修改
+git diff HEAD -- readme.txt  #查看该文件在工作区和版本库里面最新版本的区别
 # 此时会跳到新的页面，即工作区修改详情页，按 Q 退出此页面。
 
 `````
