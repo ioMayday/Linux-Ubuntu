@@ -16,6 +16,9 @@
 
   [有线网络连接（校园网）](https://blog.csdn.net/Caoyang_He/article/details/82262199)
   
+  https://blog.csdn.net/guaijiaodie2064/article/details/83041721
+  
+  
 ## 常用命令
 
 **快捷命令**
